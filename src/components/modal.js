@@ -4,7 +4,7 @@ import imagemBolsa from "../images/imagem-bolsa.jpg";
 import imagemBolsaMobile from "../images/imagem-bolsa-mobile.jpg";
 import { FormularioModal } from "./formulario";
 
-const Modal = ({ onClose }) => {
+const Modal = ( {onClose} ) => {
   const src = window.innerWidth > 900 ? imagemBolsa : imagemBolsaMobile;
 
   function clickButton() {
@@ -14,9 +14,7 @@ const Modal = ({ onClose }) => {
   return (
     <div
       className="modal"
-      onClick={() => {
-        onClose(false);
-      }}
+      onClick={clickButton}
     >
       <div className="container" onClick={(e) => e.stopPropagation()}>
         <div className="contentBody">
