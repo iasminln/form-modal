@@ -1,4 +1,4 @@
-# App Modal Form
+# **App Modal Form**
 
 Esse app abre um modal com formulário ao carregar a página, sendo muito útil para sites de e-commerce. 
 
@@ -11,3 +11,10 @@ Esse app abre um modal com formulário ao carregar a página, sendo muito útil 
 O formulário foi programado para só aceitar o envio caso os campos "nome" e "email" estejam preenchidos. Após, aparece um cupom de desconto fictício que pode ser copiado com um clique.
 
 Além disso, é possível observar pelo `console.log` os dados que foram coletados pelo formulário.  
+
+Para observar o funcionamento, acesse:  [modal-form.netlify](https://modal-form.netlify.app)
+
+<br>
+
+📝 Iasmin Lisboa Nogueira
+
